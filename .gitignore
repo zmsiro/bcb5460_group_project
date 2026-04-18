@@ -1,0 +1,9 @@
+rna_seq/fastq/
+rna_seq/kallisto_results/
+rna_seq/reference/
+*.fastq
+*.fastq.gz
+*.h5
+.Rhistory
+.RData
+.DS_Store
