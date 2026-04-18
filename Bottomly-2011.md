@@ -14,16 +14,11 @@ The study used both RNA-seq and microarray approaches.
 
 ## Our Replication Approach
 
-We used a modern RNA-seq workflow:
+We used a more modern RNA-seq workflow (difficulties getting original to run with older software)
 
 - kallisto (pseudoalignment)
 - tximport (gene-level summarization)
 - DESeq2 (differential expression)
-
-## Key Differences
-- Modern tools instead of legacy pipeline
-- Updated annotations
-- No microarray comparison (yet)
 
 ## Results
 Original paper:
@@ -37,9 +32,8 @@ Despite methodological differences, we reproduced the same overall biological co
 strong gene expression differences exist between B6 and D2 mouse striatum.
 
 ## Limitations
-- Did not replicate microarray analysis
 - Different computational pipeline
 - Different reference annotation
 
 ## Conclusion
-The main findings of the study are robust to a modern RNA-seq workflow, and our documentation improves reproducibility.
+The main findings of the study appear to be generally robust to our modern RNA-seq workflow, and our documentation improves reproducibility.
