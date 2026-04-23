@@ -1,9 +1,12 @@
-rna_seq/fastq/
-rna_seq/kallisto_results/
-rna_seq/reference/
+# Ignore large data files
+fastq/
+kallisto_results/
 *.fastq
-*.fastq.gz
-*.h5
+*.fq
+
+# R temp files
 .Rhistory
 .RData
+
+# macOS
 .DS_Store
