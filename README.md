@@ -22,7 +22,7 @@ This repository is divided into two primary analysis components:
 - Kallisto quantification
 - Summarization at the gene level via tximport
 - Differential expression as assessed through DESeq2
-- Visualization of findings: PCA, MA, volcano plot, heatmap
+- Visualization of findings: PCA, MA, volcano plot,
 
 ### Microarray analysis (located in `microarray/`)
 - Data were obtained through GEO (GSE26024)
