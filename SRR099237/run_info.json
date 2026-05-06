@@ -1,0 +1,14 @@
+{
+	"n_targets": 116358,
+	"n_bootstraps": 0,
+	"n_processed": 27742742,
+	"n_pseudoaligned": 22802895,
+	"n_unique": 7605833,
+	"p_pseudoaligned": 82.2,
+	"p_unique": 27.4,
+	"kallisto_version": "0.51.1",
+	"index_version": 13,
+	"k-mer length": 31,
+	"start_time": "Fri Apr 17 23:30:05 2026",
+	"call": "kallisto quant -i reference/mouse_cdna.index -o kallisto_results/SRR099237 --single -l 250 -s 30 fastq/SRR099237.fastq"
+}
