@@ -24,7 +24,6 @@ FASTQ → kallisto → tximport → DESeq2 → visualization
     -PCA plot: sample clustering by mouse striatum (B6 cs D2)
     -MA plot: mean expression vs fold change
     -Volcano plot: effect size vs statistical significance
-    -Heatmap: to visualize top DE genes
 
 ## Why we used this approach
 The original paper did not provide a reproducible pipeline that could be used with current tools. 
