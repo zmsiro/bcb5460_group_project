@@ -1,7 +1,7 @@
 # BCB5460 Group Project – Bottomly et al. (2011) RNA-seq and Microarray Analysis Replication
 
 ## Overview
-This repository contains documentation for our group project for BCB 5460 (Spring 2026).
+This repository contains documentation and presentation slides for our group project for BCB 5460 (Spring 2026).
 In this repository, we replicate and document analyses from Bottomly et al. (2011; PLoS ONE)
 
 ## Original paper information
@@ -30,7 +30,6 @@ This repository is divided into two primary analysis components:
 - Illumina MouseRef-8 v2.0 platform was used
 - Visualization included PCA, volcano plot, heatmap
 
-
 ## Key Result
 We found around 1,200 differentially expressed genes (padj < 0.01). 
 While quantity differs compared to the original manuscript, the conclusions are similar
@@ -44,6 +43,7 @@ making it more replicable.
 
 bcb5460_group_project/
 ├── README.md
+├── EEOB5460_Group_Project_06May_26.pptx
 ├── Bottomly-2011.md
 ├── rna_seq/
 │   ├── code/
