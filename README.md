@@ -14,6 +14,8 @@ Bottomly et al. (2011) explored whether genes are differentially expressed betwe
 - C57BL/6J (B6)
 - DBA/2J (D2)
 
+The primary focus of the study was to compare the efficiency and accuracy of detecting differentially expressed genes using RNA-Seq analysis versus microarray analysis between the B6 and D2 mouse strains.
+
 ## Project Structure
 This repository is divided into two primary analysis components:
 
@@ -33,7 +35,8 @@ This repository is divided into two primary analysis components:
 ## Key Result
 We found around 1,200 differentially expressed genes (padj < 0.01). 
 While quantity differs compared to the original manuscript, the conclusions are similar
-in that there appears to be notable gene expression differences in B6 and D2 mouse striatum
+in that there appears to be notable gene expression differences in B6 and D2 mouse striatum. 
+Additionally, RNA-Seq analysis was more efficient than microarray analysis, which aligns with the conclusions of the paper.
 
 ## Goal of Project
 To provide documentation for a computational workflow for a poorly documented study,
@@ -72,4 +75,4 @@ Microarray
 -R (GEOquery, limma)
 
 ## Authors
-Shamima Afrose, Katie Petersen, Nathan, Zoe Sirotiak
+Shamima Afrose, Katie Petersen, Nathan Kreuter, Zoe Sirotiak
